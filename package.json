@@ -1,0 +1,15 @@
+{
+  "name": "soyle-qazaq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A thoughtful, local-first Kazakh learning studio",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "check": "node --check dist/js/app.mjs && node --check dist/js/domain.mjs && node --check dist/js/data.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
